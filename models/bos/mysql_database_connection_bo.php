@@ -7,10 +7,10 @@
 		 * ********************************************************
 		 * ********************************************************/
 		function getConnection() {
-			$host          = 'mariadb11.viacomkft.hu';
-			$database_name = '16153_theapp';
-			$user_name     = '16153_theapp'; //TODO: Create a secret retrieval process...
-			$user_password = 'LyOOiFoEM7giE'; //TODO: Create a secret retrieval process...
+			$host          = 'database.domain.hu';
+			$database_name = 'database_name';
+			$user_name     = 'user_name'; //TODO: Create a secret retrieval process...
+			$user_password = 'user_password'; //TODO: Create a secret retrieval process...
 
 			try {
 				$connection = new PDO(

@@ -1,0 +1,115 @@
+body {
+    background-color: #fce4ec; /* Light pink background */
+    font-family: Arial, sans-serif; /* Use a common font for readability */
+}
+
+#container {
+    width: 80%; /* Set width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: #fff; /* White background for the content area */
+    padding: 20px; /* Add some padding for better spacing */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+h1 {
+    color: #ff4081; /* Pink color for the heading */
+    font-size: 14px;
+}
+
+#menu ul li a,
+h1 a,
+#menu ul li {
+    color: #ff4081; /* Pink color for menu links */
+    text-decoration: none; /* Remove underline from links */
+}
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: "\2665";
+    color: #ff4081;
+    padding-right: 5px;
+}
+
+#menu ul li a:hover, h1 a:hover {
+    color: #ff80ab; /* Lighter pink color on hover */
+}
+
+form {
+    margin-top: 20px; /* Add some space between heading and form */
+}
+
+label {
+    color: #ff4081; /* Pink color for labels */
+}
+
+input[type="datetime-local"],
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%; /* Make input fields and select dropdowns full width */
+    padding: 10px; /* Add some padding for better appearance */
+    margin-bottom: 15px; /* Add some space between form elements */
+    border: 1px solid #ff4081; /* Pinkish border for input fields and select dropdowns */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+textarea {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ff4081; /* Pink border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fce4ec; /* Light pink background */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif; /* Common font */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+input[type="submit"] {
+    background-color: #ff4081; /* Pink background for the submit button */
+    color: #fff; /* White text color for better contrast */
+    border: none; /* No border for the submit button */
+    padding: 10px 20px; /* Add some padding for better appearance */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+input[type="submit"]:hover {
+    background-color: #ff80ab; /* Lighter pink background on hover */
+}
+
+
+/* Pinkish CSS for Baby Breastfeed Table */
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table Header */
+table th {
+    background-color: #ff4081; /* Pink background for header */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding for header cells */
+    text-align: left; /* Align text to the left */
+}
+
+/* Table Body */
+table tbody tr:nth-child(even) {
+    background-color: #fce4ec; /* Light pink background for even rows */
+}
+
+/* Table Cells */
+table tr td {
+    padding: 10px; /* Padding for cells */
+    border: 1px solid #ff4081; /* Pinkish border for cells */
+}
+
+/* Hover effect */
+table tbody tr:hover {
+    background-color: #ff80ab; /* Lighter pink background on hover */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
